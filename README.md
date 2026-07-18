@@ -7,7 +7,7 @@
 
 1. ~~Проверить железо и Ubuntu~~
 2. ~~Создать Git-репозиторий homelab~~
-3. Установить K3s: 1 server + 2 agents
+3. ~~Установить K3s: 1 server + 2 agents~~
 4. Изучить Kubernetes вручную
 5. Изучить сеть, Ingress и DNS
 6. Изучить PVC и StatefulSet
