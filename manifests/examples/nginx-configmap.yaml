@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: nginx-html
+
+data:
+  index.html: |
+    <!doctype html>
+    <html lang="ru">
+      <head>
+        <meta charset="UTF-8">
+        <title>Homelab Kubernetes</title>
+      </head>
+      <body>
+        <h1>Привет из моего K3s-кластера</h1>
+        <p>Страница загружена из ConfigMap.</p>
+      </body>
+    </html>
